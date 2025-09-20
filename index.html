@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripCo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <h1>✈️TripCo</h1>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Ticket</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Activity</a></li>
+        </ul>
+        <div class="user">
+          <button>Login</button>
+          <button class="active">Sign Up</button>
+        </div>
+        <div class="menu"><i class="fa fa-bars menubtn"></i></div>
+      </nav>
+      <div class="mobile">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Ticket</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Activity</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="content">
+        <h6>Explore the whole <br> world  and enjoy its beauty</h6>
+        <p class="find">Find and write about your experiences around the world</p>
+      </div>
+    </section>
+    <section class="Tabs">
+      <div class="tab">
+        <div class="buttons">
+          <button class="active">Hospitality</button>
+          <button>Flights</button>
+          <button>Bus & Shuttle</button>
+          <button>Cars</button>
+        </div>
+        <div class="last"><button>Last Searching ></button></div>
+      </div>
+      <div class="lin"><div class="span"></div></div>
+    <!-- Form -->
+    <form class="search-form">
+  <div class="form-group">
+    <label>Destination</label>
+    <div class="input-icon">
+      <i class="fa-solid fa-location-dot"></i>
+      <input type="text" value="Bali, Indonesia">
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Check-in</label>
+    <div class="input-icon">
+      <i class="fa-solid fa-calendar-days"></i>
+      <input type="date" value="2022-12-02">
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Check-out</label>
+    <div class="input-icon">
+      <i class="fa-solid fa-calendar-check"></i>
+      <input type="date" value="2022-12-03">
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Room & Guest</label>
+    <div class="input-icon">
+      <i class="fa-solid fa-user-group"></i>
+      <input type="text" value="1 Room, 2 Guest">
+    </div>
+  </div>
+  <button type="submit" class="btn-primary">
+    <i class="fa-solid fa-magnifying-glass"></i> Search
+  </button>
+    </form>
+    </section>
+    <!-- Popular Places -->
+<section class="popular-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="header">
+        <h2>Popular Places</h2>
+        <p>Most visited destinations by our travelers</p>
+      </div>
+      <p class="right">Discover the most beautiful and loved destinations around the world.
+        From historic landmarks to breathtaking beaches, explore where our
+        travelers love to go the most.</p>
+    </div>
+
+    <div class="places-grid">
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-alexazabache-3879070.jpg')"></div>
+        <div class="place-body">
+          <h3>SC. Mindanao</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Mindanao, Philippines</span>
+            <span class="rating">29% Off</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-brett-sayles-3027216.jpg')"></div>
+        <div class="place-body">
+          <h3>Disneyland Tokyo</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Tokyo, Japan</span>
+            <span class="rating">88% Off</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-frans-van-heerden-201846-632522.jpg')"></div>
+        <div class="place-body">
+          <h3>Thousand Island</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Java, Indonesia</span>
+            <span class="rating">40% Off</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-sheila-mae-capul-192641-860271.jpg')"></div>
+        <div class="place-body">
+          <h3>Amalfi Coast</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Amalfi, Italy</span>
+            <span class="rating">35% Off</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Travel -->
+<section class="travel">
+  <div class="travel-header">
+    <h1>Travel to make sweet memories</h1>
+    <p>find trips that fit a flexible lifestyle</p>
+  </div>
+  <div class="travel-content">
+    <div class="trip-info">
+      <div class="trip">
+        <span class="one">01</span>
+        <h2>Find trips that fir your freedom</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dolorem fugiat natus expedita</p>
+      </div>
+      <div class="trip">
+        <span class="two">01</span>
+        <h2>Find trips that fir your freedom</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dolorem fugiat natus expedita</p>
+      </div>
+      <div class="trip">
+        <span class="three">01</span>
+        <h2>Find trips that fir your freedom</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dolorem fugiat natus expedita</p>
+      </div>
+        <button>Start your explore</button>
+    </div>
+    <div class="trip-image">
+      <img src="./pictures/pexels-frans-van-heerden-201846-632522.jpg" alt="">
+      <div class="user-card">
+        <img src="./T1.png" alt="">
+        <div class="con">
+          <h4>Brain</h4>
+          <p>⭐ 4.9</p>
+        </div>
+      </div>
+        <div class="user-card two">
+        <img src="./3.jpg" alt="">
+        <div class="con">
+          <h4>Happiness</h4>
+          <p>⭐ 4.9</p>
+        </div>
+      </div>
+          <div class="user-card three">
+        <img src="./2.jpg" alt="">
+        <div class="con">
+          <h4>Muyser</h4>
+          <p>⭐ 4.9</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Explore More -->
+<section class="popular-section more">
+  <div class="container">
+    <div class="section-header">
+      <div class="header">
+        <h2>Explore More</h2>
+        <p>Let's go on adventure</p>
+      </div>
+      <p class="right">Discover the most beautiful and loved destinations around the world.
+        From historic landmarks to breathtaking beaches, explore where our
+        travelers love to go the most.</p>
+    </div>
+      <div class="tab">
+        <div class="buttons">
+          <button class="active">Hospitality</button>
+          <button>Flights</button>
+          <button>Bus & Shuttle</button>
+          <button>Cars</button>
+          <button>search</button>
+          <button>batch</button>
+          <button>like</button>
+        </div>
+        <div class="last"><button>Last Searching ➡️</button></div>
+      </div>
+    <div class="places-grid">
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-pongdelrosario-1076240.jpg')"></div>
+        <div class="place-body">
+          <h3>SC. Mindanao</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Mindanao, Philippines</span>
+            <span class="rating">⭐ 4.0</span>
+            <span>$148</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-ozgomz-2893685.jpg')"></div>
+        <div class="place-body">
+          <h3>Disneyland Tokyo</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Tokyo, Japan</span>
+            <span class="rating">⭐ 66</span>
+            <span>$108</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-mikegiugliano-3009069.jpg')"></div>
+        <div class="place-body">
+          <h3>Thousand Island</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Java, Indonesia</span>
+            <span class="rating">⭐ 1.9</span>
+            <span>$100</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-lennon-garcia-895704-14355644.jpg')"></div>
+        <div class="place-body">
+          <h3>Amalfi Coast</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Amalfi, Italy</span>
+            <span class="rating">⭐ 5.1</span>
+            <span>$248</span>
+          </div>
+        </div>
+      </article>
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-frans-van-heerden-201846-632522.jpg')"></div>
+        <div class="place-body">
+          <h3>Amalfi Coast</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Amalfi, Italy</span>
+            <span class="rating">⭐ 6.8</span>
+            <span>$548</span>
+          </div>
+        </div>
+      </article>
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-chriz-luminario-198087-2798477.jpg')"></div>
+        <div class="place-body">
+          <h3>Amalfi Coast</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Amalfi, Italy</span>
+            <span class="rating">⭐ 5.8</span>
+            <span>$255</span>
+          </div>
+        </div>
+      </article>
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-alexazabache-3879070.jpg')"></div>
+        <div class="place-body">
+          <h3>Amalfi Coast</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Amalfi, Italy</span>
+            <span class="rating">⭐ 9.9</span>
+            <span>$167</span>
+          </div>
+        </div>
+      </article>
+      <article class="place-card">
+        <div class="place-img" style="background-image:url('./pictures/pexels-chriz-luminario-198087-2798477.jpg')"></div>
+        <div class="place-body">
+          <h3>Amalfi Coast</h3>
+          <div class="meta">
+            <span class="loc"><i class="fa-solid fa-location-dot"></i> Amalfi, Italy</span>
+            <span class="rating">⭐ 4.9</span>
+            <span>$768</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- Adventure -->
+<section class="adventure">
+  <div class="adventure-head">
+    <h1>Let's go on an adventure</h1>
+    <p>Find and book a great experiences</p>
+    <div class="adventure-image">
+      <div class="ad-img">
+        <img src="./WhatsApp Image 2024-09-28 at 16.29.44_4b5d2f8e.jpg" alt="">
+        <h4>Sudan</h4>
+      </div>
+      <div class="ad-img">
+        <img src="./pictures/pexels-sheila-mae-capul-192641-860271.jpg" alt="">
+        <h4>London</h4>
+      </div>
+      <div class="ad-img">
+        <img src="./pictures/pexels-alexazabache-3879070.jpg" alt="">
+        <h4>Paris</h4>
+      </div>
+      <div class="ad-img">
+        <img src="./pictures/pexels-chriz-luminario-198087-2798477.jpg" alt="">
+        <h4>Rwanda</h4>
+      </div>
+    </div>
+  </div>
+  <div class="btn">
+    <button>⬅️</button>
+    <button>➡️</button>
+  </div>
+</section>
+
+<!-- book your trip -->
+<section class="book-ticket">
+  <div class="book-btn">
+    <button class="first">book ticket and go now</button>
+    <button>Book now</button>
+  </div>
+  <div class="img">
+    <img src="./pictures/pexels-alexazabache-3879070.jpg" alt="">
+    <button class="play"><i class="fa fa-play"></i></button>
+  </div>
+</section>
+
+
+<section>
+  <footer>
+  <div class="footer-content">
+    
+    <!-- Company Info + Social Icons -->
+    <div class="footer-section">
+      <div class="content">
+        <h1>TripCo</h1>
+        <p>This is a sample page demonstrating the footer</p>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="footer-section">
+      <h3>About</h3>
+      <ul>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Plans</a></li>
+      </ul>
+    </div>
+    
+    <!-- Company -->
+    <div class="footer-section">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="#">Why Tripeco</a></li>
+        <li><a href="#">Partner with us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+    
+    <!-- Support -->
+    <div class="footer-section">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Support center</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+    
+    <!-- Newsletter -->
+    <div class="footer-section newsletter">
+      <h3>Newsletter</h3>
+      <p>Subscribe our newsletter and get exciting offers</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Your email address">
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+</section>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
